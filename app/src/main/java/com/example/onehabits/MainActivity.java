@@ -29,8 +29,9 @@ public class MainActivity extends AppCompatActivity {
                 if (email.getText().toString().isEmpty() || pass.getText().toString().isEmpty()) {
                     Toast.makeText(MainActivity.this, "Datos incorrectos o faltantes", Toast.LENGTH_SHORT).show();
                 }else{
-                    if (email.getText().toString().equals("nacho123") || pass.getText().toString().equals("anashe")) {
+                    if (email.getText().toString().equals("nacho123") || pass.getText().toString().equals("1234")) {
                         Intent goDashboard = new Intent(MainActivity.this, dashboard.class);
+                        startActivity(goDashboard);
                         Toast.makeText(MainActivity.this, "Inicio Correcto", Toast.LENGTH_SHORT).show();
                     }
                 }

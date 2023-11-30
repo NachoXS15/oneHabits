@@ -15,16 +15,5 @@ public class dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        LinearLayout cardContainer = findViewById(R.id.card_dou);
-
-        // Infla la vista de la tarjeta desde el modelo XML
-        CardView cardView = (CardView) LayoutInflater.from(this).inflate(R.layout.card, cardContainer, false);
-
-        // Configura elementos dentro de la tarjeta
-        TextView textTitle = cardView.findViewById(R.id.title);
-        textTitle.setText("Nuevo Título");
-
-        // Agrega la tarjeta al contenedor
-        cardContainer.addView(cardView);
     }
 }
