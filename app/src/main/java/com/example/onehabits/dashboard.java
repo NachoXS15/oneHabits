@@ -3,8 +3,10 @@ package com.example.onehabits;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -15,5 +17,10 @@ public class dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
+    }
+
+    public void goAdd(View view){
+        Intent goAdd = new Intent(dashboard.this, addHabit.class);
+        startActivity(goAdd);
     }
 }
