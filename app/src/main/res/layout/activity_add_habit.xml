@@ -105,6 +105,27 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@mipmap/gato" />
 
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="22dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="306dp"
+            android:layout_marginTop="370dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/edit_gray" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="169dp"
+            android:onClick="goBackDash"
+            android:layout_marginTop="508dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/cancel" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
