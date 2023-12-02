@@ -23,4 +23,9 @@ public class dashboard extends AppCompatActivity {
         Intent goAdd = new Intent(dashboard.this, addHabit.class);
         startActivity(goAdd);
     }
+
+    public void goSettings (View view){
+        Intent goDashboard = new Intent(dashboard.this, settings.class);
+        startActivity(goDashboard);
+    }
 }

@@ -9,8 +9,8 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="403dp"
-        android:layout_height="773dp"
+        android:layout_width="394dp"
+        android:layout_height="857dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="72dp"
         android:background="@drawable/border_radius"
@@ -117,14 +117,34 @@
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="169dp"
+            android:layout_width="70dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="504dp"
             android:onClick="goBackDash"
-            android:layout_marginTop="508dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@mipmap/cancel" />
+            app:srcCompat="@mipmap/cruz_black" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="304dp"
+            android:layout_marginTop="232dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/calendar_black" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="306dp"
+            android:layout_marginTop="296dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/clock_black" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
