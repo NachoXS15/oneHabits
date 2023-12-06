@@ -19,5 +19,9 @@ public class settings extends AppCompatActivity {
         startActivity(goDashboard);
     }
 
+    public void goLogout(View view){
+        Intent goOut = new Intent(settings.this, MainActivity.class);
+        startActivity(goOut);
+    }
 
 }

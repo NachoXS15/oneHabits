@@ -28,4 +28,8 @@ public class dashboard extends AppCompatActivity {
         Intent goDashboard = new Intent(dashboard.this, settings.class);
         startActivity(goDashboard);
     }
+
+    public void goCalendar (View view){
+        Intent goCalendar = new Intent(dashboard.this, calendar.class);
+    }
 }
