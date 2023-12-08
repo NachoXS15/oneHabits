@@ -31,5 +31,6 @@ public class dashboard extends AppCompatActivity {
 
     public void goCalendar (View view){
         Intent goCalendar = new Intent(dashboard.this, calendar.class);
+        startActivity(goCalendar);
     }
 }

@@ -14,7 +14,7 @@ public class settings extends AppCompatActivity {
         setContentView(R.layout.activity_settings);
     }
 
-    public void goBackDash (View view){
+    public void goDash (View view){
         Intent goDashboard = new Intent(settings.this, dashboard.class);
         startActivity(goDashboard);
     }
@@ -22,6 +22,11 @@ public class settings extends AppCompatActivity {
     public void goLogout(View view){
         Intent goOut = new Intent(settings.this, MainActivity.class);
         startActivity(goOut);
+    }
+
+    public void goCalendar(View view){
+        Intent goCalendar = new Intent(settings.this, calendar.class);
+        startActivity(goCalendar);
     }
 
 }
