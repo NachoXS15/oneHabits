@@ -331,7 +331,6 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="672dp"
         android:fontFamily="@font/staatliches_regular"
-        android:onClick="goBackDash"
         android:text="Inicio"
         android:textColor="@color/yellow"
         android:textSize="24dp"

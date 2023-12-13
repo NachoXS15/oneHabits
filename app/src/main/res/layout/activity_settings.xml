@@ -118,7 +118,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="344dp"
         android:ems="10"
-        android:hint="Fecha"
+        android:hint="Contraseña"
         android:inputType="textPassword"
         android:text="ppdersoli123@gmail.com"
         android:textColor="@color/lightyellow"
